@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DRIVER REGISTER FORM</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+       
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#index.html">Home</a>
+                    <a href="#bews">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class='logoutBtn'>
+                <form action='php/logout.php' method='post' class='logout'>
+                    <input type='submit' value='logout' name='logout' class='btn'>
+                </form>       
+        </div>
+
+        <div class="header">
+            <h1> REGISTER A Car Driver</h1>
+        </div>
+        <div class="main">
+            <div clalss="main-content">  
+                <div class="registor-car-form">  
+                    <form action="php/registerDriver.php" method="post" class="add-driver-form">
+                        <label for="isbn">LicenseNo:</label>
+                        <input type="text"  name="license_no" placeholder="license no. "><br><br>
+                        <label for="fname">FName:</label>
+                        <input type="text"  name="fname" placeholder="first name"><br><br>
+                        <label for="fname">LName:</label>
+                        <input type="text"  name="lname" placeholder="last name"><br><br>
+
+                        <label for="fname">Age:</label>
+                        <input type="text"  name="age" placeholder=" age"><br><br>
+
+                        <label for="Fines">BDate:</label>
+                        <input type="text" name="bdate" placeholder="date of birth"><br><br>
+                        <label for="cityname">City:</label>
+                        <input type="text"  name="city" placeholder="city"><br><br>
+                        <label for="username">Username:</label>
+                        <input type="text" name="usernameInput" placeholder="license no."><br><br>
+                        <label for="cityname">Password:</label>
+                        <input type="password"  name="passwordInput" placeholder="password"><br><br>
+                        <input type="submit" value="REGISTER" name="register" class="btn">
+                    </form>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="image/car-img.jpg" alt="library image">
+            </div>
+
+        </div>
+        <div class="footer">
+            <p class="para-footer">&copy; automated car registration</p>
+
+        </div>
+        </div>
+    </div>
+
+        
+    </body>
+    </html>

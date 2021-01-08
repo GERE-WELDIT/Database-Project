@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER CAR FORM</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+   
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="#index.html">Home</a>
+                <a href="#bews">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+    <div class='logoutBtn'>
+                <form action='php/logout.php' method='post' class='logout'>
+                    <input type='submit' value='logout' name='logout' class='btn'>
+                </form>       
+    </div>
+    
+
+    <div class="header">
+        <h1> REGISTOR A CAR</h1>
+    </div>
+    <div class="main">
+        <div clalss="main-content">  
+            <div class="registor-car-form">  
+                <form action="php/registerCar.php" method="post" class="">
+                    <label for="fname">PlateNo:</label>
+                    <input type="text"  name="plate_no" placeholder="car plate no."><br><br>
+                    <label for="isbn">LicenseNo:</label>
+                    <input type="text"  name="license_no" placeholder="driver license no."><br><br>
+                    <label for="Type">CarType:</label>
+                    <input type="text"  name="cartype" placeholder="car type"><br><br>
+                    <label for="Fines">Fines:</label>
+                    <input type="text" name="fines" placeholder="fines amount"><br><br>
+                    <label for="cityname">City:</label>
+                    <input type="text"  name="city" placeholder="city name"><br><br>
+                    <input type="submit" value="REGISTER" name="registerCar" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="main-img">
+            <img src="image/car-img.jpg" alt="library image">
+        </div>
+
+    </div>
+    <div class="footer">
+        <p class="para-footer">&copy;automated car registration</p>
+
+    </div>
+    </div>
+</div>
+    
+</body>
+</html>

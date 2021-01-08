@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR REGSTRATION SYSTEM</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+   
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="#bnews">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <h1>CAR REGSTRATION SYSTEM</h1>
+    </div>
+    <div class="main">
+        <div clalss="main-content">
+            <div class="login-class">  
+                <form action="php/login.php" method="post" class="login-form">
+                    
+                    <label for="fname">USERNAME:</label>
+                    <input type="text" id="name" name="username" placeholder="username"><br><br>
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" id="password" name="pword" placeholder="password"><br><br>
+                    <input type="submit" value="LOGIN" name="login" class="btn">
+                </form>
+                <form action="registerDriverForm.html" method="post" class="login-form">
+                    <input type="submit" value="REGISTER" name="REGISTER" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="main-img">
+            <img src="image/car-img.jpg" alt="car image">
+        </div>
+    </div>
+    <div class="footer">
+        <p class="para-footer"> &copy;automated car registration</p>
+    </div>
+    </div>
+</div>   
+</body>
+</html>

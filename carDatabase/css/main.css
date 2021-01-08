@@ -1,0 +1,161 @@
+body {
+  /*height: 800px;*/
+}
+
+.container {
+  background-color: #e0ffff;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  text-align: left;
+  background-color: black;
+  padding: 10px;
+}
+li {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+a {
+  text-decoration: none;
+  color: green;
+  display: inline;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+a:hover {
+  color: #2eb6bd;
+  text-decoration: none;
+}
+
+
+.header {
+  background-color: #e0ffff;
+  text-align: center;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  clear: both;
+}
+.main {
+  background-color: #e0ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.login-class{
+  display: inline;
+}
+form{
+  display: inline;
+  clear:both;
+}
+.search-car-form{
+
+}
+
+
+label {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  display: inline;
+}
+
+h2,
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+.main-img {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+img {
+  width: 780px;
+}
+
+.footer {
+  clear: both;
+  position: relative;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.para-footer {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+/* button styling*/
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color: #74ad5a;
+  border: 1px solid #3b6e22;
+  display: inline;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color: #68a54b;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/* css related to search car*/
+
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+
+.logoutBtn{
+  magin-left:auto;
+  margin-right:auto;
+}
+
+.logout{
+  display:inline;
+  float:right;
+  padding-right:0;
+  padding-top:10px;
+}
