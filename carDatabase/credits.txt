@@ -1,0 +1,2 @@
+-This project is developed by Gere Weldit & Murad Simreteab.
+-Also, a lot of credits goes to W3School's html and css tutorials.
